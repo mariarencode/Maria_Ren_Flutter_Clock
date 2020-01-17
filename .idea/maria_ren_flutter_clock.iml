@@ -3,13 +3,16 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/flutter_clock_helper/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter_clock_helper/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter_clock_helper/build" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/maria_ren_clock/ios/.symlinks/plugins/device_info/example/build" />
     </content>

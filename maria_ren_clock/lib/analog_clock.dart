@@ -3,19 +3,14 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'dart:io' show Platform;
 
-import 'package:device_info/device_info.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter_clock_helper/model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/semantics.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:vector_math/vector_math_64.dart' show radians;
 
-
-import 'container_hand.dart';
 import 'drawn_hand.dart';
 
 /// Total distance traveled by a second or a minute hand, each second or minute,
@@ -24,7 +19,6 @@ final radiansPerTick = radians(360 / 60);
 
 /// Total distance traveled by an hour hand, each hour, in radians.
 final radiansPerHour = radians(360 / 12);
-
 
 /// A basic analog clock.
 class AnalogClock extends StatefulWidget {
@@ -51,7 +45,6 @@ class _AnalogClockState extends State<AnalogClock> {
     _updateTime();
     _updateModel();
   }
-
 
   @override
   void didUpdateWidget(AnalogClock oldWidget) {
@@ -91,35 +84,26 @@ class _AnalogClockState extends State<AnalogClock> {
 
   @override
   Widget build(BuildContext context) {
-    final customTheme = Theme
-        .of(context)
-        .brightness == Brightness.light
+    final customTheme = Theme.of(context).brightness == Brightness.light
         ? Theme.of(context).copyWith(
-      // Hour hand.
-      primaryColor: Colors.black,
-      // Minute hand.
-      highlightColor: Colors.black,
-      // Second hand.
-      accentColor: Colors.black,
-      backgroundColor: Colors.lightBlue[200].withOpacity(0.5),
-    )
+            // Hour hand.
+            primaryColor: Colors.black,
+            // Minute hand.
+            highlightColor: Colors.black,
+            // Second hand.
+            accentColor: Colors.black,
+            backgroundColor: Colors.lightBlue[200].withOpacity(0.5),
+          )
         : Theme.of(context).copyWith(
-      primaryColor: Color(0xFFD2E3FC),
-      highlightColor: Color(0xFFD2E3FC),
-      accentColor: Color(0xFFD2E3FC),
-      backgroundColor: Color(0xFF3C4043),
-    );
+            primaryColor: Color(0xFFD2E3FC),
+            highlightColor: Color(0xFFD2E3FC),
+            accentColor: Color(0xFFD2E3FC),
+            backgroundColor: Color(0xFF3C4043),
+          );
 
-    final time = DateFormat.Hms().format(DateTime.now());
     final timeVoiceOver = DateFormat.jm().format(DateTime.now());
-    final screenWidth = MediaQuery
-        .of(context)
-        .size
-        .width;
-    final screenHeight = MediaQuery
-        .of(context)
-        .size
-        .height;
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
 
     /// As mentioned in the contest rules: "The clock design should use
     /// landscape mode, with a 5:3 aspect ratio." The following makes the clock
@@ -146,7 +130,7 @@ class _AnalogClockState extends State<AnalogClock> {
     /// screenWidth 568
     void iPhone5Sizing() {
       sideComponentsLeft = screenWidth / 1.63;
-      swingGirlLeft = screenWidth / 5.7;
+      swingGirlLeft = screenWidth / 6;
       swingGirlTop = screenHeight / 2.5;
       fontSize = screenWidth / 6.5;
       analogClockLeft = screenWidth / 7;
@@ -271,7 +255,6 @@ class _AnalogClockState extends State<AnalogClock> {
       leavesRight = screenWidth / 3;
     }
 
-
     /// Make sure to adjust sizing of elements based on screen sizes of
     /// different iPhones.
     if (screenWidth <= 568.0) {
@@ -311,7 +294,6 @@ class _AnalogClockState extends State<AnalogClock> {
       padding: EdgeInsetsDirectional.only(start: 0, top: 0),
       child: Stack(
         children: [
-
           /// minute hand
           DrawnHand(
             color: customTheme.highlightColor,
@@ -437,10 +419,9 @@ class _AnalogClockState extends State<AnalogClock> {
         break;
       case 'snowy':
         {
-          conditionIcon = Theme
-              .of(context)
-              .brightness ==
-              Brightness.light ? snowyLight : snowy;
+          conditionIcon = Theme.of(context).brightness == Brightness.light
+              ? snowyLight
+              : snowy;
         }
         break;
       case 'sunny':
@@ -472,8 +453,7 @@ class _AnalogClockState extends State<AnalogClock> {
       margin: const EdgeInsets.only(left: 10.0, right: 10.0),
     );
 
-    final temperatureUnit =
-    widget.model.unit == TemperatureUnit.celsius
+    final temperatureUnit = widget.model.unit == TemperatureUnit.celsius
         ? 'degrees celsius'
         : 'degrees fahrenheit';
 
@@ -483,7 +463,6 @@ class _AnalogClockState extends State<AnalogClock> {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisSize: MainAxisSize.min,
       children: [
-
         /// Digital time
         digitalTimeWidget,
 
@@ -524,10 +503,9 @@ class _AnalogClockState extends State<AnalogClock> {
     );
 
     /// gradient for background.
-    final transformColor = Theme
-        .of(context)
-        .brightness ==
-        Brightness.light ? Colors.white : Colors.blue;
+    final transformColor = Theme.of(context).brightness == Brightness.light
+        ? Colors.white
+        : Colors.blue;
 
     return Container(
       decoration: BoxDecoration(
@@ -581,10 +559,9 @@ class _AnalogClockState extends State<AnalogClock> {
                   ' $timeVoiceOver , ',
               child: Container(
                 padding: const EdgeInsets.all(8.0),
-                color: Theme
-                    .of(context)
-                    .brightness ==
-                    Brightness.light ? Colors.white : Colors.lightBlue,
+                color: Theme.of(context).brightness == Brightness.light
+                    ? Colors.white
+                    : Colors.lightBlue,
                 child: sideComponents,
               ),
             ),

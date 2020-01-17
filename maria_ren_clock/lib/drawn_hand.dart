@@ -22,16 +22,15 @@ class DrawnHand extends Hand {
     @required this.thickness,
     @required double size,
     @required double angleRadians,
-  })
-      : assert(color != null),
+  })  : assert(color != null),
         assert(thickness != null),
         assert(size != null),
         assert(angleRadians != null),
         super(
-        color: color,
-        size: size,
-        angleRadians: angleRadians,
-      );
+          color: color,
+          size: size,
+          angleRadians: angleRadians,
+        );
 
   /// How thick the hand should be drawn, in logical pixels.
   final double thickness;
@@ -60,8 +59,7 @@ class _HandPainter extends CustomPainter {
     @required this.lineWidth,
     @required this.angleRadians,
     @required this.color,
-  })
-      : assert(handSize != null),
+  })  : assert(handSize != null),
         assert(lineWidth != null),
         assert(angleRadians != null),
         assert(color != null),

@@ -23,12 +23,11 @@ Test Results:
 - iPhone 6s iOS 13.3
 
 [Emulators - all with iOS 13.2.2]
-- iPhone 11 Pro -  (App developed on this emulator, best results and performance).
+- iPhone 11 -  (App developed on this emulator, best results and performance).
 - iPhone 6s
 - iPhone 6s+
 - iPhone 8
 - iPhone 8+
-- iPhone 11
 - iPhone 11 Pro
 - iPhone 11 Pro Max
 - iPad Pro (9.7 inch)
