@@ -6,7 +6,7 @@ import 'dart:async';
 import 'dart:io' show Platform;
 
 import 'package:device_info/device_info.dart';
-import "package:flare_flutter/flare_actor.dart";
+import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter_clock_helper/model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
@@ -302,7 +302,7 @@ class _AnalogClockState extends State<AnalogClock> {
         'animations/swingGirlAnimation.flr',
         alignment: Alignment.bottomLeft,
         fit: BoxFit.scaleDown,
-        animation: "swingGirl",
+        animation: 'swingGirl',
       ),
     );
 
@@ -374,7 +374,7 @@ class _AnalogClockState extends State<AnalogClock> {
       children: [
         weekday,
         Text(
-          DateFormat.yMMMMd("en_US").format(_now),
+          DateFormat.yMMMMd('en_US').format(_now),
           style: TextStyle(
             fontSize: fontSize / 7,
             color: Colors.black,
@@ -420,22 +420,22 @@ class _AnalogClockState extends State<AnalogClock> {
     var conditionIcon;
 
     switch (_condition) {
-      case "cloudy":
+      case 'cloudy':
         {
           conditionIcon = cloudy;
         }
         break;
-      case "foggy":
+      case 'foggy':
         {
           conditionIcon = foggy;
         }
         break;
-      case "rainy":
+      case 'rainy':
         {
           conditionIcon = rainy;
         }
         break;
-      case "snowy":
+      case 'snowy':
         {
           conditionIcon = Theme
               .of(context)
@@ -443,17 +443,17 @@ class _AnalogClockState extends State<AnalogClock> {
               Brightness.light ? snowyLight : snowy;
         }
         break;
-      case "sunny":
+      case 'sunny':
         {
           conditionIcon = sunny;
         }
         break;
-      case "thunderstorm":
+      case 'thunderstorm':
         {
           conditionIcon = thunderstorm;
         }
         break;
-      case "windy":
+      case 'windy':
         {
           conditionIcon = windy;
         }
@@ -472,6 +472,10 @@ class _AnalogClockState extends State<AnalogClock> {
       margin: const EdgeInsets.only(left: 10.0, right: 10.0),
     );
 
+    final temperatureUnit =
+    widget.model.unit == TemperatureUnit.celsius
+        ? 'degrees celsius'
+        : 'degrees fahrenheit';
 
     /// Combination of all the components for the right side of the clock.
     final sideComponents = Column(
@@ -488,7 +492,7 @@ class _AnalogClockState extends State<AnalogClock> {
 
         /// Date section
         Semantics(
-          label: "Today is",
+          label: ' Today is ',
           child: date,
         ),
 
@@ -503,11 +507,13 @@ class _AnalogClockState extends State<AnalogClock> {
               child: weatherIcon,
             ),
             Semantics(
-              label: "The weather today is $_condition,  "
-                  "and current temperature is $_temperature,  "
-                  "temperature today will range from  "
-                  "${widget.model.low} to ${widget.model.highString} ,  "
-                  "Enjoy your day!",
+              label: ' The weather today is $_condition, '
+                  ' and current temperature is ${widget.model.temperature}, '
+                  ' $temperatureUnit, '
+                  ' temperature today will range from '
+                  ' ${widget.model.low} to ${widget.model.high}, '
+                  ' $temperatureUnit, '
+                  ' Enjoy your day! ',
               child: ExcludeSemantics(
                 child: temperature,
               ),
@@ -539,7 +545,7 @@ class _AnalogClockState extends State<AnalogClock> {
             bottom: 0,
             child: ExcludeSemantics(
               child: Image(
-                image: AssetImage("assets/tree.png"),
+                image: AssetImage('assets/tree.png'),
                 height: screenHeight,
               ),
             ),
@@ -551,7 +557,7 @@ class _AnalogClockState extends State<AnalogClock> {
             right: leavesRight,
             child: ExcludeSemantics(
               child: Image(
-                image: AssetImage("assets/leaves.png"),
+                image: AssetImage('assets/leaves.png'),
                 height: screenHeight / 2.6,
               ),
             ),
@@ -572,7 +578,7 @@ class _AnalogClockState extends State<AnalogClock> {
             bottom: 0,
             child: Semantics(
               label: 'Welcome to Maria Ren\'s clock! Current time is '
-                  '$timeVoiceOver ',
+                  ' $timeVoiceOver , ',
               child: Container(
                 padding: const EdgeInsets.all(8.0),
                 color: Theme

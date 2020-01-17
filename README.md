@@ -39,7 +39,6 @@ Test Results:
 
 
 
-<img src='maria_ren_clock_light.png' width='350'>
+<img src='maria_ren_flutter_clock.png' width='350'>
 
-<img src='maria_ren_clock_dark.png' width='350'>
 
