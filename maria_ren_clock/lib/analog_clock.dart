@@ -145,47 +145,47 @@ class _AnalogClockState extends State<AnalogClock> {
 
     /// screenWidth 667
     void iPhone6sSizing() {
-      sideComponentsLeft = screenWidth / 1.5;
-      swingGirlLeft = screenWidth / 5.1;
+      sideComponentsLeft = screenWidth / 1.65;
+      swingGirlLeft = screenWidth / 6.5;
       swingGirlTop = screenHeight / 2.5;
-      fontSize = screenWidth / 7.5;
-      analogClockLeft = screenWidth / 6;
-      analogClockTop = screenHeight / 17;
-      analogClockRight = screenWidth / 3.5;
+      fontSize = screenWidth / 5.5;
+      analogClockLeft = screenWidth / 6.5;
+      analogClockTop = screenHeight / 20;
+      analogClockRight = screenWidth / 2.68;
       analogClockBottom = screenHeight / 5;
-      digitalClockHeight = screenHeight / 9.5;
+      digitalClockHeight = screenHeight / 8;
       leavesLeft = screenWidth / 8;
       leavesBottom = screenHeight / 1.65;
-      leavesRight = screenWidth / 4;
+      leavesRight = screenWidth / 3.1;
     }
 
     /// screenWidth 736
     void iPhone8Sizing() {
-      sideComponentsLeft = screenWidth / 1.5;
-      swingGirlLeft = screenWidth / 5.1;
+      sideComponentsLeft = screenWidth / 1.58;
+      swingGirlLeft = screenWidth / 6.3;
       swingGirlTop = screenHeight / 2.5;
-      fontSize = screenWidth / 7.25;
-      analogClockLeft = screenWidth / 6;
-      analogClockTop = screenHeight / 17;
-      analogClockRight = screenWidth / 3.5;
+      fontSize = screenWidth / 6;
+      analogClockLeft = screenWidth / 6.5;
+      analogClockTop = screenHeight / 20;
+      analogClockRight = screenWidth / 2.8;
       analogClockBottom = screenHeight / 5;
-      digitalClockHeight = screenHeight / 9.5;
+      digitalClockHeight = screenHeight / 8;
       leavesLeft = screenWidth / 8;
       leavesBottom = screenHeight / 1.65;
-      leavesRight = screenWidth / 4;
+      leavesRight = screenWidth / 3.4;
     }
 
     /// screenWidth 812
     void iPhone11ProSizing() {
       sideComponentsLeft = screenWidth / 2.1;
-      swingGirlLeft = screenWidth / 7.8;
-      swingGirlTop = screenHeight / 2.5;
-      fontSize = screenWidth / 7.8;
+      swingGirlLeft = screenWidth / 7.84;
+      swingGirlTop = screenHeight / 2.57;
+      fontSize = screenWidth / 7.5;
       analogClockLeft = screenWidth / 8;
       analogClockTop = screenHeight / 15;
       analogClockRight = screenWidth / 3.5;
       analogClockBottom = screenHeight / 5;
-      digitalClockHeight = screenHeight / 8;
+      digitalClockHeight = screenHeight / 7;
       leavesLeft = screenWidth / 8;
       leavesBottom = screenHeight / 1.65;
       leavesRight = screenWidth / 4;
@@ -195,13 +195,13 @@ class _AnalogClockState extends State<AnalogClock> {
     void iPhone11Sizing() {
       sideComponentsLeft = screenWidth / 2.1;
       swingGirlLeft = screenWidth / 7.8;
-      swingGirlTop = screenHeight / 2.5;
+      swingGirlTop = screenHeight / 2.54;
       fontSize = screenWidth / 7.5;
       analogClockLeft = screenWidth / 8;
       analogClockTop = screenHeight / 15;
       analogClockRight = screenWidth / 3.5;
       analogClockBottom = screenHeight / 5;
-      digitalClockHeight = screenHeight / 9.5;
+      digitalClockHeight = screenHeight / 7.5;
       leavesLeft = screenWidth / 8;
       leavesBottom = screenHeight / 1.65;
       leavesRight = screenWidth / 4;
@@ -256,7 +256,7 @@ class _AnalogClockState extends State<AnalogClock> {
     }
 
     /// Make sure to adjust sizing of elements based on screen sizes of
-    /// different iPhones.
+    /// different iPhones and iPads.
     if (screenWidth <= 568.0) {
       iPhone5Sizing();
     } else if (screenWidth > 568.0 && screenWidth <= 667.0) {
@@ -274,6 +274,8 @@ class _AnalogClockState extends State<AnalogClock> {
     } else if (screenWidth > 1112.0 && screenWidth <= 1194.0) {
       iPadPro11Sizing();
     } else if (screenWidth > 1194.0 && screenWidth <= 1366.0) {
+      iPadProSizing();
+    } else if (screenWidth > 1366.0) {
       iPadProSizing();
     } else {
       iPhone11Sizing();

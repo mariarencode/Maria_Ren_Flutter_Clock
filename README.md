@@ -1,29 +1,34 @@
-# Maria Ren Flutter Clock
+# Maria Ren Clock
 
 This app is designed by Maria Ren for the Flutter Clock Challenge Competition.
+(* Note: Please test on iOS platform. Best performance and result is achieved using
+real iOS devices.)
+
 
 
 Special Features:
-- Animations created using Flare animation.
-- Features both analog and digital clock for convenient time reading.
-- All assets, images, and animations are drawn by myself.
-- Has a light theme and a dark theme.
-- Supports updating weather condition icons.
-- Supports 24 hour format.
-- Supports multiple temperature units (celsius, fahrenheit).
-- Displays data including time, weekday, date, year, weather condition, temperature,
-  temperature range etc.
-- Accessibility tested.
-- Created, tested and optimized on iPhone 11 Pro - 13.2.2 emulator
+- Animations : Created using Flare animation.
+- Accessibility : Accessibility will read through all important information including time,
+  date, weather etc. VoiceOver will start once user taps screen, and will automatically update
+  every minute with the accurate information.
+- Convenient Time Reading : Features both analog and digital clock for convenient time reading.
+- Original Artwork : All assets, images, and animations are drawn by myself.
+- Multiple App Theme : Has a light theme and a dark theme.
+- Fun Weather Icons : Supports updating weather condition icons.
+- Multiple Time Formats : Supports 24 hour format.
+- Multiple Temperature Units : Supports multiple temperature units (celsius, fahrenheit).
+- Lots of Useful Information : Displays data including time, weekday, date, year, weather condition,
+  temperature, temperature range etc.
 
 
-Test Results:
+
+Testing Devices and Emulators:
 [Devices]
 - iPad Air (1st generation) iOS 12.4.4
 - iPhone 6s iOS 13.3
 
 [Emulators - all with iOS 13.2.2]
-- iPhone 11 -  (App developed on this emulator, best results and performance).
+- iPhone 11 -  (App developed on this emulator).
 - iPhone 6s
 - iPhone 6s+
 - iPhone 8
@@ -37,7 +42,12 @@ Test Results:
 - iPad Air (3rd generation)
 
 
+Demo:
+- Please see the file Maria_Ren_Flutter_Clock_Demo.mp4 for a quick demo.
 
-<img src='maria_ren_flutter_clock.png' width='350'>
+For License information please see file LICENSE (including BSD for code, Apache 2.0 for assets,
+and OFL for fonts licenses).
 
-
+<p align="center">
+    <img src='maria_ren_flutter_clock.png' width='550'>
+</p>
