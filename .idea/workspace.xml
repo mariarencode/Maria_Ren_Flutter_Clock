@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/maria_ren_clock/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/maria_ren_clock/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="537">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
@@ -203,11 +201,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1472" y="23" width="1627" height="1006" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3356467" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3356467" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
@@ -217,10 +214,10 @@
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32822758" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" visible="true" weight="0.32822758" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50094634" side_tool="true" weight="0.32822758" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" weight="0.32822758" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5003154" side_tool="true" weight="0.24179432" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.24179432" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49968454" visible="true" weight="0.24179432" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -329,7 +326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="537">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
