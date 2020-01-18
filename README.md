@@ -4,7 +4,7 @@
 
 ## Note To Judges: 
 #### * Please test on iOS device. This app is developed on iPhone 11 Emulator iOS 13.2.2. Best performance and result is achieved using iOS devices.
-#### * Please use 'flutter run' instead of 'flutter create .' when running project (I made some edits in the iOS and Android folders so I didn't delete them during project cleanup. 
+#### * Please use `flutter run` instead of `flutter create .` when running project (I made some edits in the iOS and Android folders so I didn't delete them during project cleanup.
 
 
 
