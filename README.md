@@ -45,8 +45,7 @@
 ## Demo:
 - Please see the file `Maria_Ren_Flutter_Clock_Demo.mp4` for a quick demo.
 
-### For License information please see file LICENSE (including BSD for code, Apache 2.0 for assets,
-and OFL for fonts licenses).
+#### For License information please see file LICENSE (including BSD for code, Apache 2.0 for assets,and OFL for fonts licenses).
 
 <p align="center">
     <img src='maria_ren_flutter_clock.png' width='600'>
