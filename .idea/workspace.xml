@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria_ren_clock/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/maria_ren_clock/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="750">
               <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
               <folding>
                 <element signature="e#166#186#0" expanded="true" />
@@ -32,8 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4664">
+            <state relative-caret-position="285">
               <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#2745#2751#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -88,16 +89,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
+    <option name="x" value="59" />
     <option name="y" value="23" />
-    <option name="width" value="1248" />
-    <option name="height" value="835" />
+    <option name="width" value="1355" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,8 +123,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,25 +214,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="23" width="1248" height="835" extended-state="0" />
-    <editor active="true" />
+    <frame x="59" y="23" width="1355" height="864" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.30514097" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28484386" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.23632385" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.2357513" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32822758" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" weight="0.32822758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" visible="true" weight="0.3277202" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5003154" side_tool="true" weight="0.24179432" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49968454" visible="true" weight="0.20995963" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49968454" weight="0.20207255" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -316,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="750">
           <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
             <element signature="e#166#186#0" expanded="true" />
@@ -334,14 +334,17 @@
     <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4664">
+        <state relative-caret-position="285">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#2745#2751#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
