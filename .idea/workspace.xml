@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="" />
+    <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +184,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="23" width="1355" height="864" extended-state="1" />
+    <frame x="59" y="23" width="1355" height="864" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
@@ -196,10 +198,10 @@
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32822758" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" visible="true" weight="0.32642487" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" weight="0.32642487" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5003154" side_tool="true" weight="0.24179432" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49968454" weight="0.20207255" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49968454" visible="true" weight="0.20207255" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
