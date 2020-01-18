@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b94772-3395-4bb3-8c4d-96b37015a33e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Maria_Ren_Flutter_Clock_Demo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maria_ren_flutter_clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maria_ren_clock/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/maria_ren_clock/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart" beforeDir="false" afterPath="$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="472">
+              <caret line="52" lean-forward="true" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="532">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -65,9 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/maria_ren_clock/README.md" />
         <option value="$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/maria_ren_clock/README.md" />
       </list>
     </option>
   </component>
@@ -212,7 +207,7 @@
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3356467" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3356467" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
@@ -222,7 +217,7 @@
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32822758" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" visible="true" weight="0.32822758" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49905363" visible="true" weight="0.32822758" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50094634" side_tool="true" weight="0.32822758" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.24179432" />
@@ -315,13 +310,6 @@
     <entry file="file://$PROJECT_DIR$/flutter_clock_helper/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maria_ren_clock/lib/analog_clock.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
@@ -334,8 +322,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="472">
+          <caret line="52" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maria_ren_clock/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
