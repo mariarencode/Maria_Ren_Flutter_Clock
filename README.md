@@ -53,3 +53,7 @@
 <p align="center">
     <img src='maria_ren_flutter_clock.png' width='600'>
 </p>
+
+<p align="center">
+    <img src='Maria_Ren_Flutter_Clock_Certificate.png' width='600'>
+</p>
